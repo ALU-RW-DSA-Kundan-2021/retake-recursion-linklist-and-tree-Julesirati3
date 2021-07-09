@@ -1,11 +1,15 @@
-def countEvenOdd(n):
-     
+def recursion(n):
+    #Two variables even_count and odd_count first are initialised with zero 
     even_count = 0
     odd_count = 0
+
+  # we create a loop for doing iteration to check if an umber is odd or even
     while (n > 0):
         rem = n % 10
+      # this conditoin checks if the reminder is equal to zero and if the condition is true one is added to even_count
         if (rem % 2 == 0):
             even_count += 1
+          # this conditoin checks if the reminder is equal to zero and if the condition is true one is added to odd_count
         else:
             odd_count += 1
              
@@ -29,4 +33,4 @@ def countEvenOdd(n):
  
 # Driver code
 n = 44787735451;
-t = countEvenOdd(n);
+t = recursion(n);
