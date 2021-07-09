@@ -4,7 +4,7 @@ class Node:
         self.next = None;  
    
 class list:  
-    #Here we a are declaring head and tail pointer as null.  
+    #Here we a are declaring head and t variable pointer as null.  
     def __init__(self):  
         self.count = 0;  
         self.t = Node(None);
